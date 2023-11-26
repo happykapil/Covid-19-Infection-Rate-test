@@ -13,7 +13,7 @@ def main():
     with st.form(key='covid_form'):
         st.subheader("Personal Information")
         name = st.text_input("Name", placeholder="Enter your name")
-        age = st.number_input("Age", min_value=0, step=1, placeholder="Enter your age")
+        age = st.number_input("Age", min_value=0, step=1)
         state = st.text_input("State", placeholder="Enter your state")
 
         st.subheader("Health and Travel History")
